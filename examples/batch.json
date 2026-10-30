@@ -1,0 +1,295 @@
+[
+  {
+    "schemaVersion": 1,
+    "testFixture": true,
+    "displayTimezone": "Asia/Tokyo",
+    "post": {
+      "id": "1000000000000000001",
+      "url": "https://x.com/layout_test/status/1000000000000000001",
+      "author": {
+        "name": "测试作者🐉🌪️",
+        "handle": "layout_test",
+        "avatar": "assets/test-avatar.png",
+        "verified": false,
+        "verificationEvidence": null
+      },
+      "originalText": "これはテスト文章です。実在の投稿ではありません。",
+      "translation": "今天让我休息一天吧🙇\n恢复体力，明天会直播！",
+      "publishedAt": "2026-10-29T20:29:00+09:00",
+      "sourceTimezone": "Asia/Tokyo",
+      "sourceScreenshot": {
+        "file": "assets/test-source-not-real.png",
+        "capturedAt": "2026-10-29T20:35:00+09:00",
+        "reviewed": true
+      },
+      "sourceMediaCount": 0,
+      "sourceQuote": "none",
+      "media": [],
+      "quote": null,
+      "relationship": {
+        "type": "original"
+      },
+      "metrics": {},
+      "notes": [],
+      "review": {
+        "translationConfirmed": true,
+        "sourceConfirmed": true
+      }
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "testFixture": true,
+    "displayTimezone": "Asia/Tokyo",
+    "post": {
+      "id": "1000000000000000002",
+      "url": "https://x.com/layout_test/status/1000000000000000002",
+      "author": {
+        "name": "测试作者🐉🌪️",
+        "handle": "layout_test",
+        "avatar": "assets/test-avatar.png",
+        "verified": false,
+        "verificationEvidence": null
+      },
+      "originalText": "これはテスト文章です。実在の投稿ではありません。",
+      "translation": "明天凌晨5点开始。\n第1段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第2段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第3段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第4段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第5段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第6段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第7段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第8段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第9段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第10段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第11段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第12段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第13段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第14段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第15段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第16段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第17段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第18段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第19段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第20段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第21段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第22段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第23段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第24段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第25段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第26段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第27段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第28段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第29段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第30段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第31段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第32段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第33段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第34段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第35段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第36段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第37段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第38段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第39段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第40段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第41段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第42段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第43段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第44段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第45段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第46段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第47段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第48段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第49段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第50段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第51段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第52段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第53段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第54段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n第55段：这是超长中文排版测试，保持固定字号与行距，完整保留标点、空格和换行。\n结束。",
+      "publishedAt": "2026-10-29T20:29:00+09:00",
+      "sourceTimezone": "Asia/Tokyo",
+      "sourceScreenshot": {
+        "file": "assets/test-source-not-real.png",
+        "capturedAt": "2026-10-29T20:35:00+09:00",
+        "reviewed": true
+      },
+      "sourceMediaCount": 0,
+      "sourceQuote": "none",
+      "media": [],
+      "quote": null,
+      "relationship": {
+        "type": "original"
+      },
+      "metrics": {},
+      "notes": [],
+      "review": {
+        "translationConfirmed": true,
+        "sourceConfirmed": true
+      }
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "testFixture": true,
+    "displayTimezone": "Asia/Tokyo",
+    "post": {
+      "id": "1000000000000000003",
+      "url": "https://x.com/layout_test/status/1000000000000000003",
+      "author": {
+        "name": "日本語と中文のテスト作者🐉",
+        "handle": "very_long_account_abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghij",
+        "avatar": "assets/test-avatar.png",
+        "verified": false,
+        "verificationEvidence": null
+      },
+      "originalText": "これはテスト文章です。実在の投稿ではありません。",
+      "translation": "日本語のまま：配信は明日、朝5時から！\n中文：明天凌晨5点开播👩‍💻🐉🌪️🙇‍♂️🇯🇵🇨🇳 1️⃣\n原文中的“明天”保持原样。\nhttps://example.invalid/pathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpath\n特殊字符：<script>alert(\"测试\")</script> & '单引号'。",
+      "publishedAt": "2026-10-29T20:29:00+09:00",
+      "sourceTimezone": "Asia/Tokyo",
+      "sourceScreenshot": {
+        "file": "assets/test-source-not-real.png",
+        "capturedAt": "2026-10-29T20:35:00+09:00",
+        "reviewed": true
+      },
+      "sourceMediaCount": 0,
+      "sourceQuote": "none",
+      "media": [],
+      "quote": null,
+      "relationship": {
+        "type": "original"
+      },
+      "metrics": {},
+      "notes": [
+        "显示时区转换不改写正文中的相对时间。"
+      ],
+      "review": {
+        "translationConfirmed": true,
+        "sourceConfirmed": true
+      }
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "testFixture": true,
+    "displayTimezone": "Asia/Tokyo",
+    "post": {
+      "id": "1000000000000000004",
+      "url": "https://x.com/layout_test/status/1000000000000000004",
+      "author": {
+        "name": "测试作者🐉🌪️",
+        "handle": "layout_test",
+        "avatar": "assets/test-avatar.png",
+        "verified": false,
+        "verificationEvidence": null
+      },
+      "originalText": "これはテスト文章です。実在の投稿ではありません。",
+      "translation": "【三图直播预告 · 测试】\n明天凌晨5点见！三张配图都保留完整画面与比例。",
+      "publishedAt": "2026-10-29T20:29:00+09:00",
+      "sourceTimezone": "Asia/Tokyo",
+      "sourceScreenshot": {
+        "file": "assets/test-source-not-real.png",
+        "capturedAt": "2026-10-29T20:35:00+09:00",
+        "reviewed": true
+      },
+      "sourceMediaCount": 3,
+      "sourceQuote": "none",
+      "media": [
+        {
+          "file": "assets/test-media-1.png",
+          "completeness": "complete",
+          "reviewed": true
+        },
+        {
+          "file": "assets/test-media-2.png",
+          "completeness": "complete",
+          "reviewed": true
+        },
+        {
+          "file": "assets/test-media-3.png",
+          "completeness": "complete",
+          "reviewed": true
+        }
+      ],
+      "quote": null,
+      "relationship": {
+        "type": "original"
+      },
+      "metrics": {},
+      "notes": [],
+      "review": {
+        "translationConfirmed": true,
+        "sourceConfirmed": true
+      }
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "testFixture": true,
+    "displayTimezone": "Asia/Tokyo",
+    "post": {
+      "id": "1000000000000000005",
+      "url": "https://x.com/layout_test/status/1000000000000000005",
+      "author": {
+        "name": "测试作者🐉🌪️",
+        "handle": "layout_test",
+        "avatar": "assets/test-avatar.png",
+        "verified": false,
+        "verificationEvidence": null
+      },
+      "originalText": "これはテスト文章です。実在の投稿ではありません。",
+      "translation": "【开播通知 · 测试】\n开播啦！引用的三图预告保留在下方。",
+      "publishedAt": "2026-10-29T20:29:00+09:00",
+      "sourceTimezone": "Asia/Tokyo",
+      "sourceScreenshot": {
+        "file": "assets/test-source-not-real.png",
+        "capturedAt": "2026-10-29T20:35:00+09:00",
+        "reviewed": true
+      },
+      "sourceMediaCount": 0,
+      "sourceQuote": "present",
+      "media": [],
+      "quote": {
+        "id": "1000000000000000004",
+        "url": "https://x.com/layout_test/status/1000000000000000004",
+        "author": {
+          "name": "测试作者🐉🌪️",
+          "handle": "layout_test",
+          "avatar": "assets/test-avatar.png",
+          "verified": false,
+          "verificationEvidence": null
+        },
+        "originalText": "これはテスト文章です。実在の投稿ではありません。",
+        "translation": "【三图直播预告 · 测试】\n明天凌晨5点见！三张配图都保留完整画面与比例。",
+        "publishedAt": "2026-10-29T20:29:00+09:00",
+        "sourceTimezone": "Asia/Tokyo",
+        "sourceScreenshot": {
+          "file": "assets/test-source-not-real.png",
+          "capturedAt": "2026-10-29T20:35:00+09:00",
+          "reviewed": true
+        },
+        "sourceMediaCount": 3,
+        "sourceQuote": "none",
+        "media": [
+          {
+            "file": "assets/test-media-1.png",
+            "completeness": "complete",
+            "reviewed": true
+          },
+          {
+            "file": "assets/test-media-2.png",
+            "completeness": "complete",
+            "reviewed": true
+          },
+          {
+            "file": "assets/test-media-3.png",
+            "completeness": "complete",
+            "reviewed": true
+          }
+        ],
+        "quote": null,
+        "relationship": {
+          "type": "original"
+        },
+        "metrics": {},
+        "notes": [],
+        "review": {
+          "translationConfirmed": true,
+          "sourceConfirmed": true
+        }
+      },
+      "relationship": {
+        "type": "original"
+      },
+      "metrics": {},
+      "notes": [],
+      "review": {
+        "translationConfirmed": true,
+        "sourceConfirmed": true
+      }
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "testFixture": true,
+    "displayTimezone": "Asia/Tokyo",
+    "post": {
+      "id": "1000000000000000006",
+      "url": "https://x.com/layout_test/status/1000000000000000006",
+      "author": {
+        "name": "测试作者🐉🌪️",
+        "handle": "layout_test",
+        "avatar": "assets/test-avatar.png",
+        "verified": false,
+        "verificationEvidence": null
+      },
+      "originalText": "これはテスト文章です。実在の投稿ではありません。",
+      "translation": "没有提供互动数字。\n回复、转推、喜欢、书签与浏览量应保持留空。",
+      "publishedAt": "2026-10-29T20:29:00+09:00",
+      "sourceTimezone": "Asia/Tokyo",
+      "sourceScreenshot": {
+        "file": "assets/test-source-not-real.png",
+        "capturedAt": "2026-10-29T20:35:00+09:00",
+        "reviewed": true
+      },
+      "sourceMediaCount": 0,
+      "sourceQuote": "none",
+      "media": [],
+      "quote": null,
+      "relationship": {
+        "type": "original"
+      },
+      "notes": [],
+      "review": {
+        "translationConfirmed": true,
+        "sourceConfirmed": true
+      }
+    }
+  }
+]

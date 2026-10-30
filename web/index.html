@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>译图工作台 · 推文中文翻译排版器</title><link rel="stylesheet" href="/style.css"><script src="/app.js" type="module"></script></head>
+<body><header class="topbar"><div><span class="eyebrow">字幕组 / 本地工具</span><h1>译图工作台</h1><p>整理素材与译文 → 确定性排版 → 人工核对 → 手动发布</p></div><span class="local-badge">仅在此电脑运行</span></header>
+<main class="workspace"><section class="editor"><div class="toolbar"><button id="import">导入 JSON</button><input id="importFile" type="file" accept=".json,application/json" hidden><button id="saveJson">保存输入 JSON</button><button id="example" class="quiet">载入测试样例</button></div>
+<div class="upload-area"><label for="uploads">上传头像、配图及原帖截图</label><input id="uploads" type="file" accept="image/png,image/jpeg,image/webp" multiple><p>文件直接保留，不重画。上传后在下方对应字段中选择；素材不出本机。</p><div id="assetList"></div></div>
+<div id="form"></div><details class="json-panel"><summary>高级：编辑结构化 JSON</summary><textarea id="jsonEditor" rows="18" spellcheck="false" aria-label="结构化 JSON"></textarea><button id="applyJson">应用 JSON</button><p>批量渲染请使用命令行。网页一次编辑一条，引用帖可在表单中逐层添加。</p></details></section>
+<section class="review"><div class="review-heading"><div><span class="eyebrow">模板 tatsumaki-mvp-1.0.1</span><h2>预览与核对</h2></div><label class="timezone">显示时区<select id="displayTimezone"><option value="Asia/Tokyo">日本时间 UTC+09:00</option><option value="Asia/Shanghai">北京时间 UTC+08:00</option></select></label></div>
+<p class="note">正文保持 40px / 56px 行距；长文只延长画布。预览带有警告条，成品仍标注“中文翻译·非原图”。</p><div class="render-actions"><button id="preview" class="primary">生成预览</button><button id="publish">检查并导出成品</button></div><p id="status" role="status" aria-live="polite">填写数据和素材后生成预览。</p>
+<div id="downloads" class="downloads"></div><div id="previewPane" class="preview-pane"><div class="empty">译图会显示在这里</div></div><div id="report"></div>
+<details><summary>公开版式演示</summary><img class="reference" src="/api/reference" alt="自制版式演示图"><p class="note">示例图与账号均为程序生成的测试材料，不是真实原帖；新帖默认空白。</p></details>
+<details open><summary>原帖截图核对</summary><div id="sourceImages"></div><p class="note">请对照真实原帖逐字确认译文、时间、配图和引用关系。勾选核对项表示由你确认；软件不能证明翻译语义或来源事实正确。</p></details></section></main><footer>本地 MVP · 不抓取 X · 不调用翻译 API · 不发布动态</footer></body></html>

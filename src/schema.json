@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "displayTimezone", "post"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "displayTimezone": {"enum": ["Asia/Tokyo", "Asia/Shanghai"]},
+    "testFixture": {"type": "boolean"},
+    "post": {"$ref": "#/definitions/post"}
+  },
+  "definitions": {
+    "author": {
+      "type": "object", "additionalProperties": false,
+      "required": ["name", "handle", "avatar"],
+      "properties": {
+        "name": {"type": "string", "minLength": 1, "maxLength": 2000},
+        "handle": {"type": "string", "minLength": 1, "maxLength": 2000},
+        "avatar": {"type": ["string", "null"]},
+        "verified": {"type": "boolean"},
+        "verificationEvidence": {"type": ["string", "null"]}
+      }
+    },
+    "media": {
+      "type": "object", "additionalProperties": false,
+      "required": ["file", "completeness", "reviewed"],
+      "properties": {
+        "file": {"type": "string", "minLength": 1},
+        "completeness": {"enum": ["complete", "cropped", "unknown"]},
+        "reviewed": {"type": "boolean"},
+        "caption": {"type": "string", "maxLength": 2000}
+      }
+    },
+    "metric": {"type": ["string", "integer", "null"], "minimum": 0, "maxLength": 30},
+    "post": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "url", "author", "originalText", "translation", "publishedAt", "sourceTimezone", "sourceScreenshot", "sourceMediaCount", "sourceQuote", "media", "relationship", "review"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[0-9]{1,30}$"},
+        "url": {"type": "string", "maxLength": 4000},
+        "author": {"$ref": "#/definitions/author"},
+        "originalText": {"type": "string", "maxLength": 100000},
+        "translation": {"type": "string", "maxLength": 100000},
+        "publishedAt": {"type": "string"},
+        "sourceTimezone": {"enum": ["Asia/Tokyo", "Asia/Shanghai"]},
+        "sourceScreenshot": {
+          "type": "object", "additionalProperties": false,
+          "required": ["file", "capturedAt", "reviewed"],
+          "properties": {"file": {"type": ["string", "null"]}, "capturedAt": {"type": ["string", "null"]}, "reviewed": {"type": "boolean"}}
+        },
+        "sourceMediaCount": {"type": ["integer", "null"], "minimum": 0, "maximum": 4},
+        "sourceQuote": {"enum": ["none", "present", "unknown"]},
+        "media": {"type": "array", "maxItems": 4, "items": {"$ref": "#/definitions/media"}},
+        "quote": {"anyOf": [{"$ref": "#/definitions/post"}, {"type": "null"}]},
+        "relationship": {
+          "type": "object", "additionalProperties": false, "required": ["type"],
+          "properties": {
+            "type": {"enum": ["original", "reply", "repost"]},
+            "authorName": {"type": "string"}, "authorHandle": {"type": "string"}, "url": {"type": "string"}
+          }
+        },
+        "metrics": {
+          "type": "object", "additionalProperties": false,
+          "properties": {"views": {"$ref": "#/definitions/metric"}, "replies": {"$ref": "#/definitions/metric"}, "reposts": {"$ref": "#/definitions/metric"}, "likes": {"$ref": "#/definitions/metric"}, "bookmarks": {"$ref": "#/definitions/metric"}}
+        },
+        "notes": {"type": "array", "maxItems": 30, "items": {"type": "string", "maxLength": 10000}},
+        "review": {
+          "type": "object", "additionalProperties": false,
+          "required": ["translationConfirmed", "sourceConfirmed"],
+          "properties": {"translationConfirmed": {"type": "boolean"}, "sourceConfirmed": {"type": "boolean"}}
+        }
+      }
+    }
+  }
+}

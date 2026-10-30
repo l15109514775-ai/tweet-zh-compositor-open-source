@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "testFixture": true,
+  "displayTimezone": "Asia/Tokyo",
+  "post": {
+    "id": "1000000000000000099",
+    "url": "https://x.com/layout_test/status/1000000000000000099",
+    "author": {
+      "name": "排版示例🐉🌪️",
+      "handle": "layout_demo",
+      "avatar": "assets/reference-avatar-crop.png",
+      "verified": true,
+      "verificationEvidence": "仅用于自制公开示例，不对应任何真实账号。"
+    },
+    "originalText": "（自制排版示例，不是真实原帖或译文。）",
+    "translation": "这是公开排版演示，不是真实推文🙇\n保持字号与行距，长文只增加高度。",
+    "publishedAt": "2026-10-29T20:29:00+09:00",
+    "sourceTimezone": "Asia/Tokyo",
+    "sourceScreenshot": {
+      "file": "../reference/mvp.jpg",
+      "capturedAt": "2026-10-29T20:35:00+09:00",
+      "reviewed": true
+    },
+    "sourceMediaCount": 0,
+    "sourceQuote": "none",
+    "media": [],
+    "quote": null,
+    "relationship": {
+      "type": "original"
+    },
+    "metrics": {
+      "views": "1.2万",
+      "replies": 12,
+      "reposts": 3,
+      "likes": 45,
+      "bookmarks": 2
+    },
+    "notes": [],
+    "review": {
+      "translationConfirmed": true,
+      "sourceConfirmed": true
+    }
+  }
+}

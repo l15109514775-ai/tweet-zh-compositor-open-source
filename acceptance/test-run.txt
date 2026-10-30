@@ -1,0 +1,39 @@
+
+> tweet-zh-compositor@0.1.3 test
+> node --test --test-concurrency=1 tests/acceptance.test.mjs tests/regression.test.mjs
+
+✔ 验收样例：short (1647.2411ms)
+✔ 验收样例：long (1165.4607ms)
+✔ 验收样例：mixed (590.6237ms)
+✔ 验收样例：three-media (617.5796ms)
+✔ 验收样例：quote-three-media (666.257ms)
+✔ 验收样例：missing-metrics (525.9554ms)
+✔ 同输入、字体、模板与浏览器重复渲染 PNG 字节一致 (510.1831ms)
+✔ 1、2、4 张配图均保留比例和完整文件 (1810.6241ms)
+✔ 缺少真实核对依据/引用遗漏/错误时间会阻止成品 (427.5966ms)
+✔ 成品通路（仅内部测试，不对外宣称真实来源）与可移植输入 (1001.4616ms)
+✔ 未确认认证不显示；裁切版本明确提醒 (630.1057ms)
+✔ 回复与转推明确保留原作者及原帖 (1332.5421ms)
+✔ 缺字、配图数量遗漏、时区错误、未知字段可检出 (0.5639ms)
+✔ 日本/北京时间跨日转换；正文相对时间未改写 (0.0821ms)
+✔ 公开示例几何回归：卡片布局与文本（不含原始参考素材） (625.0363ms)
+✔ 转推/回复缺少作者字段时返回校验问题，不抛字符串调用异常 (2.2028ms)
+✔ 缺少指定 Chromium：预览退出码为 1、无 PNG，批量仍记录所有条目 (660.1802ms)
+✔ 输入校验导致预览未生成 PNG：退出码为 2 (243.2111ms)
+✔ 带警告且确实生成 PNG 的预览仍返回 0 (1875.0148ms)
+✔ 测试数据导出成品被阻止：退出码为 2 且无成品 PNG (1782.9518ms)
+✔ 本机预检实际输出 PNG 并声明不依赖云环境 (1901.5824ms)
+✔ 本地启动在浏览器缺失时中止，不发布可用网页地址 (657.8771ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 19194.436
+npm notice
+npm notice New minor version of npm available! 11.6.2 -> 11.21.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.21.1
+npm notice To update run: npm install -g npm@11.21.1
+npm notice

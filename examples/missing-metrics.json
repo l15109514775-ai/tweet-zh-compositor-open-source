@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "testFixture": true,
+  "displayTimezone": "Asia/Tokyo",
+  "post": {
+    "id": "1000000000000000006",
+    "url": "https://x.com/layout_test/status/1000000000000000006",
+    "author": {
+      "name": "测试作者🐉🌪️",
+      "handle": "layout_test",
+      "avatar": "assets/test-avatar.png",
+      "verified": false,
+      "verificationEvidence": null
+    },
+    "originalText": "これはテスト文章です。実在の投稿ではありません。",
+    "translation": "没有提供互动数字。\n回复、转推、喜欢、书签与浏览量应保持留空。",
+    "publishedAt": "2026-10-29T20:29:00+09:00",
+    "sourceTimezone": "Asia/Tokyo",
+    "sourceScreenshot": {
+      "file": "assets/test-source-not-real.png",
+      "capturedAt": "2026-10-29T20:35:00+09:00",
+      "reviewed": true
+    },
+    "sourceMediaCount": 0,
+    "sourceQuote": "none",
+    "media": [],
+    "quote": null,
+    "relationship": {
+      "type": "original"
+    },
+    "notes": [],
+    "review": {
+      "translationConfirmed": true,
+      "sourceConfirmed": true
+    }
+  }
+}

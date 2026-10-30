@@ -1,0 +1,244 @@
+{
+  "reportVersion": 1,
+  "mode": "preview",
+  "status": "blocked",
+  "publishable": false,
+  "sourceUrl": "https://x.com/layout_test/status/1000000000000000003",
+  "inputSha256": "0fb134f5d34a6487d1b171ad45a01b86928b7fbbc3f289f6dda30c5e43e142be",
+  "template": {
+    "version": "tatsumaki-mvp-1.0.1",
+    "sha256": "af1ceb7fa32f0fb2edfee127236fdde5e9f2099c07e352b721c3a51bf3142c65",
+    "sourceSha256": "8eae3fe55f9ff243b45bb6a9025cbd654068fb72a6a965f7e136ba6759801ae8",
+    "referenceSha256": "29d43646f709ade215479347239efbdd52c94f5e18e967b11eafdf60a75e0339",
+    "reference": "reference/mvp.jpg",
+    "locked": true
+  },
+  "engine": {
+    "playwright": "1.64.1",
+    "chromium": "156.0.8078.4",
+    "platform": "win32",
+    "arch": "x64",
+    "node": "v24.12.0"
+  },
+  "fonts": [
+    {
+      "name": "NotoSansCJKsc-Regular.otf",
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    },
+    {
+      "name": "NotoSansCJKsc-Bold.otf",
+      "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+    },
+    {
+      "name": "NotoColorEmoji.ttf",
+      "sha256": "72a635cb3d2f3524c51620cdde406b217204e8a6a06c6a096ff8ed4b5fd6e27b"
+    }
+  ],
+  "issues": [
+    {
+      "severity": "error",
+      "code": "TEST_FIXTURE",
+      "field": "/",
+      "message": "演示/测试数据，只允许带警告的预览，不可作为真实译图发布。"
+    },
+    {
+      "severity": "info",
+      "code": "METRIC_UNKNOWN",
+      "field": "post.metrics.views",
+      "message": "未提供，保持留空。"
+    },
+    {
+      "severity": "info",
+      "code": "METRIC_UNKNOWN",
+      "field": "post.metrics.replies",
+      "message": "未提供，保持留空。"
+    },
+    {
+      "severity": "info",
+      "code": "METRIC_UNKNOWN",
+      "field": "post.metrics.reposts",
+      "message": "未提供，保持留空。"
+    },
+    {
+      "severity": "info",
+      "code": "METRIC_UNKNOWN",
+      "field": "post.metrics.likes",
+      "message": "未提供，保持留空。"
+    },
+    {
+      "severity": "info",
+      "code": "METRIC_UNKNOWN",
+      "field": "post.metrics.bookmarks",
+      "message": "未提供，保持留空。"
+    }
+  ],
+  "checks": {
+    "translationExact": true,
+    "quoteComplete": true,
+    "imagesUnchanged": true,
+    "mediaAspectRatios": true,
+    "overflow": [],
+    "glyphCoverage": true
+  },
+  "assets": [
+    {
+      "inputFile": "assets/test-avatar.png",
+      "outputFile": "assets/fa7682a241bffe8f934b3d7dccf7baed6c3fbff3dda6f2f3f8d7444d8d844e38.png",
+      "sha256": "fa7682a241bffe8f934b3d7dccf7baed6c3fbff3dda6f2f3f8d7444d8d844e38",
+      "bytes": 581,
+      "width": 128,
+      "height": 128,
+      "uses": [
+        {
+          "field": "post.author.avatar",
+          "role": "avatar"
+        }
+      ],
+      "operations": "原文件字节复制；渲染时仅缩放，配图不裁切，头像使用模板圆形遮罩。"
+    },
+    {
+      "inputFile": "assets/test-source-not-real.png",
+      "outputFile": "assets/f26f6927cf6899ddfc0310b593f19a139d0e1bd318ced5bd927422668aca2799.png",
+      "sha256": "f26f6927cf6899ddfc0310b593f19a139d0e1bd318ced5bd927422668aca2799",
+      "bytes": 20790,
+      "width": 1280,
+      "height": 540,
+      "uses": [
+        {
+          "field": "post.sourceScreenshot.file",
+          "role": "sourceScreenshot"
+        }
+      ],
+      "operations": "原文件字节复制；渲染时仅缩放，配图不裁切，头像使用模板圆形遮罩。"
+    }
+  ],
+  "layout": {
+    "width": 1280,
+    "height": 1258,
+    "card": {
+      "x": 0,
+      "y": 107,
+      "width": 1280,
+      "height": 1150.796875
+    },
+    "translations": [
+      {
+        "field": "post.translation",
+        "text": "日本語のまま：配信は明日、朝5時から！\n中文：明天凌晨5点开播👩‍💻🐉🌪️🙇‍♂️🇯🇵🇨🇳 1️⃣\n原文中的“明天”保持原样。\nhttps://example.invalid/pathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpathpath\n特殊字符：<script>alert(\"测试\")</script> & '单引号'。",
+        "x": 38,
+        "y": 427.796875,
+        "width": 1204,
+        "height": 560,
+        "fontSize": "40px",
+        "lineHeight": "56px"
+      }
+    ],
+    "quotes": [],
+    "images": [
+      {
+        "field": "post.author.avatar",
+        "sha256": "fa7682a241bffe8f934b3d7dccf7baed6c3fbff3dda6f2f3f8d7444d8d844e38",
+        "role": "avatar",
+        "naturalWidth": 128,
+        "naturalHeight": 128,
+        "x": 38,
+        "y": 135,
+        "width": 102,
+        "height": 102
+      }
+    ],
+    "blocks": [
+      {
+        "field": "post.header",
+        "x": 38,
+        "y": 135,
+        "width": 1204,
+        "height": 202.796875
+      },
+      {
+        "field": "post.author.name",
+        "x": 158,
+        "y": 137,
+        "width": 1022,
+        "height": 50.796875
+      },
+      {
+        "field": "post.author.handle",
+        "x": 158,
+        "y": 187.796875,
+        "width": 1022,
+        "height": 150
+      },
+      {
+        "field": "post.translation",
+        "x": 38,
+        "y": 427.796875,
+        "width": 1204,
+        "height": 560
+      },
+      {
+        "field": "post.notes",
+        "x": 38,
+        "y": 1011.796875,
+        "width": 1204,
+        "height": 42
+      },
+      {
+        "field": "post.publishedAt",
+        "x": 38,
+        "y": 1085.796875,
+        "width": 1204,
+        "height": 46
+      },
+      {
+        "field": "post.metrics",
+        "x": 38,
+        "y": 1169.796875,
+        "width": 1204,
+        "height": 52
+      },
+      {
+        "field": "post.metrics.replies",
+        "x": 50,
+        "y": 1173.796875,
+        "width": 289.09375,
+        "height": 44
+      },
+      {
+        "field": "post.metrics.reposts",
+        "x": 339.09375,
+        "y": 1173.796875,
+        "width": 300.890625,
+        "height": 44
+      },
+      {
+        "field": "post.metrics.likes",
+        "x": 639.984375,
+        "y": 1173.796875,
+        "width": 342.1875,
+        "height": 44
+      },
+      {
+        "field": "post.metrics.bookmarks",
+        "x": 982.171875,
+        "y": 1173.796875,
+        "width": 212.390625,
+        "height": 44
+      }
+    ],
+    "fontsLoaded": true,
+    "overflow": []
+  },
+  "png": {
+    "file": "very_long_account_abcdef_1000000000000000003.preview.png",
+    "sha256": "a2a5f636a9b22ae07888b0fb4cda79543bd0e0a14ff21d824978b62e1a762c71",
+    "bytes": 471237,
+    "width": 2560,
+    "height": 2516
+  },
+  "limitations": [
+    "来源事实和译文语义依赖人工核对；OCR 不作为事实来源。",
+    "固定字体按参考图测量选定；参考图不含字体文件，不能证明是原字体。",
+    "同一模板、字体、浏览器与操作系统下验证排版稳定；跨系统像素级一致性未保证。"
+  ]
+}
